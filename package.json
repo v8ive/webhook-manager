@@ -1,0 +1,22 @@
+{
+  "name": "webhook-manager",
+  "version": "1.0.0",
+  "description": "MeAI Discord Webhook Manager",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v8ive/webhook-manager.git"
+  },
+  "author": "v8ive",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/v8ive/webhook-manager/issues"
+  },
+  "homepage": "https://github.com/v8ive/webhook-manager#readme",
+  "dependencies": {
+    "webhook-manager": "^1.0.2"
+  }
+}
