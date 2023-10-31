@@ -15,8 +15,8 @@ manager.on("ready", () => {
 // The callback gets fired, when a webhook is received
 //      'data' is the request, received by the listener
 manager.on("/webhook", data => {
-    console.log("-----------------------------------------------------------------------")
-    console.log("Received webhook with following data:", data);
+    // console.log("-----------------------------------------------------------------------")
+    // console.log("Received webhook with following data:", data);
     console.log("-----------------------------------------------------------------------")
     console.log(data.body)
     console.log("-----------------------------------------------------------------------")
