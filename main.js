@@ -16,4 +16,5 @@ manager.on("ready", () => {
 //      'data' is the request, received by the listener
 manager.on("/webhook", data => {
     console.log("Received webhook with following data:", data);
+    console.losg(data.body.event.activity)
 });
