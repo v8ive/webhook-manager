@@ -18,6 +18,6 @@ manager.on("/webhook", data => {
     // console.log("-----------------------------------------------------------------------")
     // console.log("Received webhook with following data:", data);
     console.log("-----------------------------------------------------------------------")
-    console.log(data.body)
+    console.log(data.body.event.activity)
     console.log("-----------------------------------------------------------------------")
 });
